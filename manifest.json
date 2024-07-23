@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "GenSP",
+    "version": "1.0",
+  
+    "description": "Scrape Page content and generate a word list",
+    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/main/beastifyTODO",
+    "icons": {
+      "48": "icons/icon.png"
+    },
+  
+    "permissions": ["activeTab"],
+  
+    "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_title": "GenSP",
+      "default_popup": "popup/information.html"
+    },
+  
+    "web_accessible_resources": [
+      "beasts/frog.jpg",
+      "beasts/turtle.jpg",
+      "beasts/snake.jpg"
+    ]
+  }
